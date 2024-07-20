@@ -1,0 +1,80 @@
+nav{
+    overflow: hidden;
+    position: sticky;
+    /* top: 1px; */
+}
+
+body.dark {
+    background-color:  #1f2937;
+    color: white;
+}
+
+body.dark section {
+    background-color:  #374151;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.theme-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.theme-toggle:focus {
+    outline: none;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+#theme-icon {  
+    transition: transform 0.3s ease-in-out;
+}
+
+body.dark #theme-icon {
+    transform: rotate(180deg);
+}
+
+#sun-icon {
+    color: #1f2937;
+    display: none;
+}
+
+#moon-icon{
+    color: white;
+    display: block;
+}
+
+body.dark #moon-icon {
+    color: #1f2937;
+    display: none;
+}
+
+body.dark #sun-icon {
+    color: #1f2937;
+    display: block;
+}
+
+
+
+/* body.dark {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+.dark .border-gray-300 {
+    border-color: #374151;
+}
+
+.dark .text-gray-700 {
+    color: #cbd5e0;
+} */
