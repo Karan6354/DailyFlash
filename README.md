@@ -3,7 +3,7 @@
   <h1>DailyFlash</h1>
   
   <p>
-    DailyFlash a responsive website that offers daily news updates using the Google News API.
+    DailyFlash a website that offers daily news updates using the Google News API.
   </p>
   
 <br />
@@ -22,7 +22,7 @@
 <!-- About the Project -->
 ## About the Project
 
-DailyFlash is a responsive website that offers daily news updates using the Google News API. For front-end development, I used HTML, CSS, Tailwind CSS, and JavaScript. I created a simple, intuitive UI to improve the user experience.
+DailyFlash is a website that offers daily news updates using the Google News API. For front-end development, I used HTML, CSS, Tailwind CSS, and JavaScript. I created a simple, intuitive UI to improve the user experience.
 
 
 <!-- Screenshots -->
